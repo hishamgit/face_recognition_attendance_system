@@ -48,5 +48,5 @@ while True:
             face_distance = face_recognition.face_distance(known_face_encoding, face_encoding)
             best_match_index = np.argmin(face_distance)
             if matches[best_match_index]:
-                name = known_face_names[best_match_index]
+                name =known_face_names[best_match_index]
             face_names.append(name)
